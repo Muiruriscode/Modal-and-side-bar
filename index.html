@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="light-theme">
+    <aside class="sidebar-section">
+      <div class="nav-img">
+        <img src="./Images/download.jpg" alt="">
+      </div>
+      <sidebar class="sidebar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Animals</a></li>
+        </ul>
+      </sidebar>
+      <footer>
+        <p>&copy 2022</p>
+      </footer>
+    </aside>
+    <section class="container">
+    <section id="home" class="home-section">
+      <div class="title">
+        <h1>Welcome</h1>
+        <p class="paragraph">
+          A gallery of animals. Look for your favourite animal in this website. 
+        </p>
+      </div>
+      <div>
+      </section>
+      <section id="about">
+        <h1>Animals on earth</h1>
+        <h2>Here is a list of animals on earth.</h2>
+         <br> 
+        <div class="img-container">
+            <div>
+              <div class="image-border">             
+                <img
+                  class="dog-img"
+                  src="./Images/download.jpg"
+                  alt="dog"
+                  onclick="modalFunc('dog', './Images/download.jpg')"
+                />
+              </div>
+            </div>
+              <div class="image-border">
+                <img
+                  class="dog-img"
+                  src="./Images/elepahnt.jpg"
+                  alt="elephant"
+                  onclick="modalFunc('elephant', './Images/elepahnt.jpg')"
+                />
+              </div>
+              <div class="image-border">
+                <img
+                  class="dog-img"
+                  src="./Images/zebra.jpg"
+                  alt="dog"
+                  onclick="modalFunc('Zebra', './Images/zebra.jpg')"
+                />
+              </div>
+              <div class="image-border">
+                <img
+                  class="dog-img"
+                  src="./Images/download.jpg"
+                  alt="dog"
+                  onclick="modalFunc('dog', './Images/download.jpg')"
+                />
+              </div>
+              <div class="image-border">
+                <img
+                  class="dog-img"
+                  src="./Images/elepahnt.jpg"
+                  alt="dog"
+                  onclick="modalFunc('elephant', './Images/elepahnt.jpg')"
+                />
+              </div>
+              <div class="image-border">
+                <img
+                  class="dog-img"
+                  src="./Images/zebra.jpg"
+                  alt="dog"
+                  onclick="modalFunc('Zebra', './Images/zebra.jpg')"
+                />
+              </div>
+          </div>
+          
+        </section>
+      </div>
+    </section>
+    <section>
+      
+    </section>
+    <section id="modal" class="modal-section" onclick="modalCloseFunc(event)">
+      <div class="modal-div">
+        <img id="modal-image" src="" alt="dog" />
+        <h3 class="heading"> Image selected</h3>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
