@@ -127,7 +127,7 @@ a:hover::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(101, 200, 246, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   transform: translateY(-100vh);
   display: none;
 }
@@ -171,4 +171,13 @@ a:hover::before {
   height: 100vh;
   margin-top: 20px;
   text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .img-container {
+    grid-template-columns: 1fr;
+  }
+  #modal {
+    height: 150vh;
+  }
 }
