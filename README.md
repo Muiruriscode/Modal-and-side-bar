@@ -2,6 +2,6 @@
 
 The project creates shows a modal upon the selectin an animal and shows the name of the animal.
 
-! [Animals](./Images/animals.png)
+! [Animals](https://github.com/Muiruriscode/Modal-and-side-bar/blob/main/Images/animals.png)
 
 ![Modal](./Images/modal.png)
